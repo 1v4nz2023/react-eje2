@@ -1,0 +1,75 @@
+body{
+  background: rgb(78,232,137);
+background: linear-gradient(90deg, rgba(78,232,137,1) 6%, rgba(220,247,255,1) 53%, rgba(188,185,239,1) 87%, rgba(171,223,233,1) 100%);
+
+}
+
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contenedor-tareas{
+  background-color: aliceblue;
+  padding: 1rem;
+}
+
+.contenedor-tareas h1{
+text-align: left;
+}
+
+.tareas-pendientes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tareas-pendientes h3{
+  margin: 2rem;
+}
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  font-size: x-large;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.input{
+  width: 100%;
+}
+
+.contenedor-actividades{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(175, 174, 247, 0.397);
+  margin-bottom: 1rem;
+}
+
+.eliminar{
+  background-color: red;
+  color: white;
+}
+
+.agregar{
+  margin-left: 1rem;
+}
+
+@media (max-width:400px) {
+  .contenedor-actividades{
+    display: block;
+  }
+  
+  .tareas-pendientes{
+    display: block;
+  }
+
+}
